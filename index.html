@@ -2,31 +2,24 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Bannière + Refresh auto</title>
-
-  <script>
-    // Rafraîchit la page toutes les 10 secondes
-    setInterval(function() {
-      location.reload();
-    }, 10000);
-  </script>
-
+  <title>Bannière Adsterra</title>
 </head>
 <body>
 
-  <h2>Ma bannière publicitaire</h2>
+  <h2>Publicité</h2>
 
-  <!-- Ta bannière ici -->
-  <script type="text/javascript">
-    atOptions = {
-      'key' : 'TON_KEY_ICI',
-      'format' : 'iframe',
-      'height' : 250,
-      'width' : 300,
-      'params' : {}
-    };
-  </script>
-  <script type="text/javascript" src="https://www.profitablecpmrate.com/TON_SCRIPT.js"></script>
+  <div id="ad-container">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'TON_KEY_ICI',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//www.profitablecpmrate.com/TON_SCRIPT.js"></script>
+  </div>
 
 </body>
 </html>
